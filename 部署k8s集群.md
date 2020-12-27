@@ -27,7 +27,7 @@
    net.bridge.bridge-nf-call-ip6tables = 1
    $ sysctl -p
    
-   
+   或
    # 配置转发相关参数，否则可能会出错
    cat <<EOF > /etc/sysctl.d/k8s.conf
    net.bridge.bridge-nf-call-ip6tables = 1
